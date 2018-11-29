@@ -20,7 +20,6 @@ setup(
     maintainer='Barry Baker',
     maintainer_email='barry.baker@noaa.gov',
     packages=find_packages(),
-    package_data={'': ['C*/*.nc']},
     keywords=[
         'model', 'verification', 'hysplit', 'cmaq', 'atmosphere', 'camx',
         'evaluation'
