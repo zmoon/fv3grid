@@ -10,5 +10,5 @@ def get_fv3_grid(res='C384',tile=1):
                   'grid_yt':'y',
                   'grid_latt':'latitude',
                   'grid_lont':'longitude'})
-    return o.squeeze()
+    return o.squeeze().set_coords(['latitude','longitude'])
 
