@@ -21,6 +21,6 @@ setup(
     maintainer='Barry Baker',
     maintainer_email='barry.baker@noaa.gov',
     packages=find_packages(),
-    keywords=['fv3gfs']
+    keywords=['fv3gfs'],
     description='FV3 Grid Data'
 )
