@@ -15,13 +15,12 @@ setup(
     url='https://github.com/bbakernoaa/fv3grid',
     license='MIT',
     include_package_data=True,
-    package_data={'': ['fv3grid/*.nc']
-    },
+    package_data={'': ['fv3grid/*.nc']},
     author='Barry D. Baker',
     author_email='barry.baker@noaa.gov',
     maintainer='Barry Baker',
     maintainer_email='barry.baker@noaa.gov',
     packages=find_packages(),
     keywords=['fv3gfs']
-    description='FV3 Grid Data',
+    description='FV3 Grid Data'
 )
