@@ -11,7 +11,7 @@ except ImportError:
 
 setup(
     name='fv3grid',
-    version='1.0',
+    version='1.0.1',
     url='https://github.com/noaa-oar-arl/fv3grid',
     license='MIT',
     include_package_data=True,
