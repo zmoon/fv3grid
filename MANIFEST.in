@@ -1,1 +1,2 @@
 include fv3grid/*.nc
+include LICENSE
